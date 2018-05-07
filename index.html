@@ -5,7 +5,14 @@
 		<title>Snap Event</title>
 	</head>
 	<body>
+		<button onclick="bgChange('#F79E00')">Set mood lighting<br></button>
 		<h3>The Illustrious Miss Button</h3>
 		<button onclick="alert('Please stop touching me');">So clickable it's disgusting</button>
 	</body>
+
+	<script>
+		function bgChange(color) {
+			document.body.style.backgroundColor = color;
+		}
+	</script>
 </html>
